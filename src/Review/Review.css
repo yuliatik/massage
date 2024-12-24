@@ -1,0 +1,24 @@
+/* App.css */
+.review {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .rating {
+    color: #f39c12;
+    font-size: 18px;
+  }
+  
+  .reviews h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .reviews {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  

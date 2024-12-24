@@ -1,0 +1,54 @@
+/* src/components/Footer.css */
+.footer {
+    background-color:cadetblue;; /* Dunkle Hintergrundfarbe */
+    color: #fff; /* Weißer Text */
+    text-align: center; /* Zentrierter Text */
+    padding: 20px 0; /* Oben/Unten Abstand */
+  }
+  
+  .footer-content {
+    max-width: 1100px;
+    margin: 0 auto; /* Zentriere den Inhalt */
+    display: flex;
+    justify-content: space-between; /* Lücken zwischen den Abschnitten */
+    align-items: center;
+    flex-wrap: wrap; /* Passe das Layout auf kleinen Bildschirmen an */
+  }
+  
+  .footer p {
+    margin: 0; /* Entfernt Standardabstand von Absätzen */
+  }
+  
+  .footer-links {
+    list-style: none; /* Entfernt die Punkte (Bullets) */
+    display: flex; /* Links nebeneinander anzeigen */
+    gap: 20px; /* Abstand zwischen den Links */
+    padding: 0; 
+  }
+  
+  .footer-links li a {
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links li a:hover {
+    color: #00bcd4; /* Farbe beim Hovern */
+  }
+
+
+
+  /* src/components/Footer.css */
+@media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column; /* Inhalt wird untereinander angeordnet */
+      text-align: center;
+    }
+  
+    .footer-links {
+      justify-content: center; /* Zentriere die Links */
+      gap: 10px; /* Reduziere den Abstand */
+    }
+  }
+  
+  
